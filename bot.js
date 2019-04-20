@@ -2,7 +2,7 @@ const Discord = require('discord.js');
 const client = new Discord.Client();
 client.on('ready', function(){
     var ms = 10000 ;
-    var setGame = [' %help','ZG Shop','By Seif',' ZG Shop 4Ever',' %help'];
+    var setGame = [' %help','%help','%help',' %help',' %help'];
     var i = -1;
     var j = 0;
     setInterval(function (){
